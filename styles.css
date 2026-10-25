@@ -86,7 +86,8 @@ a { color: var(--accent-2); }
   text-decoration: none;
   color: var(--text);
 }
-.logo span { color: var(--accent-2); }
+/* "Web Studio" part of the name: cyan and a bit lighter than "Andrew Gates" */
+.logo span { color: var(--accent-2); font-weight: 500; }
 
 .nav { display: flex; align-items: center; gap: 28px; }
 .nav a {
